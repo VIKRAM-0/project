@@ -26,7 +26,7 @@ Uvicorn is the server that allows your FastAPI application to run, receive HTTP 
 ## Running Application
 1. As the first step clone the respository.
 2. Change the working directory to the cloned respository.
-3. Now run `pip install requirements.txt` in the terminal.
+3. Now run `pip install -r requirements.txt` in the terminal.
 4. After installation open the terminal of the editor and run the command `uvicorn main:app --reload`.
 5. Now follow the link present in the terminal. It would be like this `Uvicorn running on http://127.0.0.1:8000`.
 6. To exit the application go to the terminal and press `ctrl + c`.
